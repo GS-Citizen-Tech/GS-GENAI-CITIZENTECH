@@ -9,7 +9,7 @@
 
 Assistente conversacional que orienta o cidadão sobre **serviços de trabalho e benefícios** do portal gov.br (seguro-desemprego, recurso, empregado doméstico, abono salarial PIS/PASEP, carteira de trabalho e FGTS). Ele responde **somente** com base nas Cartas de Serviços oficiais, cita o trecho usado (URL, seção e data de atualização) e se abstém quando não há evidência.
 
-**🎥 Vídeo de demonstração (até 5 min):** _link a adicionar_
+**🎥 Vídeo de demonstração (até 5 min):** https://youtu.be/g1YSwIijkxs
 
 ## Entregáveis
 

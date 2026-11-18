@@ -8,3 +8,6 @@ _nao_entregar/
 .env
 .ipynb_checkpoints/
 __pycache__/
+
+# Vídeo (publicado no YouTube)
+*.mp4
