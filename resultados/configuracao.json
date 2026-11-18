@@ -1,0 +1,88 @@
+{
+  "config": {
+    "provedor": "openai",
+    "temperatura": 0.1,
+    "max_tokens_saida": 1024,
+    "max_tokens_juiz": 2048,
+    "limite_gasto_usd": 3.0,
+    "thinking_budget": null,
+    "salvar_no_drive": true,
+    "chunking": "estrutural_1200_150",
+    "modelo_embeddings": "intfloat/multilingual-e5-small",
+    "modelo_reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "retriever": "hibrido_rerank",
+    "top_k": 4,
+    "candidatos_rerank": 20,
+    "rrf_k": 60,
+    "limiar_similaridade": 0.862,
+    "sanitizar_ingestao": true,
+    "filtro_fontes": true,
+    "filtro_links_saida": true,
+    "dominios_permitidos": [
+      ".gov.br"
+    ],
+    "guarda_entrada": true,
+    "pos_validacao": true,
+    "turnos_historico": 4,
+    "mascarar_pii": true,
+    "usar_gate": true,
+    "system_prompt": null,
+    "modelo_llm": "gpt-4.1-mini",
+    "modelos_reserva": [
+      "gpt-4o-mini"
+    ],
+    "modelo_juiz": "gpt-5-mini",
+    "pausa_entre_chamadas": 0.3
+  },
+  "fontes": [
+    {
+      "id": "seguro_desemprego",
+      "url": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+      "titulo": "Solicitar o Seguro-Desemprego",
+      "ultima_modificacao": "25/09/2026",
+      "data_consulta": "16/11/2026"
+    },
+    {
+      "id": "faq_seguro",
+      "url": "https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego",
+      "titulo": "1. Fui demitido. Eu tenho direito ao Seguro-Desemprego?",
+      "ultima_modificacao": "não informada",
+      "data_consulta": "16/11/2026"
+    },
+    {
+      "id": "recurso_seguro",
+      "url": "https://www.gov.br/pt-br/servicos/cadastrar-recurso-relativo-ao-seguro-desemprego",
+      "titulo": "Cadastrar recurso relativo ao seguro-desemprego",
+      "ultima_modificacao": "25/09/2026",
+      "data_consulta": "16/11/2026"
+    },
+    {
+      "id": "seguro_domestico",
+      "url": "https://www.gov.br/pt-br/servicos/solicitar-seguro-desemprego-empregado-domestico",
+      "titulo": "Solicitar seguro-desemprego empregado doméstico",
+      "ultima_modificacao": "11/11/2026",
+      "data_consulta": "16/11/2026"
+    },
+    {
+      "id": "abono_salarial",
+      "url": "https://www.gov.br/pt-br/servicos/receber-o-abono-salarial",
+      "titulo": "Receber o Abono Salarial",
+      "ultima_modificacao": "23/09/2026",
+      "data_consulta": "16/11/2026"
+    },
+    {
+      "id": "carteira_trabalho",
+      "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+      "titulo": "Obter a Carteira de Trabalho",
+      "ultima_modificacao": "15/12/2025",
+      "data_consulta": "16/11/2026"
+    },
+    {
+      "id": "sacar_fgts",
+      "url": "https://www.gov.br/pt-br/servicos/sacar-o-fgts",
+      "titulo": "Sacar o FGTS",
+      "ultima_modificacao": "15/12/2025",
+      "data_consulta": "16/11/2026"
+    }
+  ]
+}

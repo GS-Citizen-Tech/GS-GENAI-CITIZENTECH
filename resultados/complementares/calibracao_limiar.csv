@@ -1,0 +1,3 @@
+limiar,origem,falsos_positivos_teste,ids_fp,falsos_negativos_teste,ids_fn,adversariais_barradas,erros_na_validacao
+0.862,teste (execução de 07/11/2026),0/24,[],0/2,[],1/4,1
+0.884,validação separada (13.6),3/24,"['R05', 'A01', 'A02']",0/2,[],2/4,0

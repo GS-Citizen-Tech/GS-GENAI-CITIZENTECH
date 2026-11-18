@@ -1,0 +1,5 @@
+variante,exatidao_fatos,abstencao_correta_sem_evidencia,respondidas_com_citacao_valida,precisao_citacao_ouro,citacoes_inexistentes,respondidas_com_numero_nao_sustentado,n_respondidas,falhas_api
+a_completo,0.875,1.0,1.0,1.0,0.0,0.0,7.0,0.0
+b_sem_regras_3_4_5,0.875,0.875,1.0,0.938,0.0,0.0,7.0,0.0
+c_sem_regra_2,0.875,1.0,1.0,1.0,0.0,0.0,7.0,0.0
+d_completo_temp_0.7,0.875,1.0,1.0,0.875,0.0,0.0,7.0,0.0

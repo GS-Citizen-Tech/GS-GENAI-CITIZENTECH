@@ -1,0 +1,5 @@
+config,n_trechos,tamanho_medio,tamanho_min,tamanho_max
+fixo_500_0,96,480,204,499
+fixo_1000_200,58,964,397,999
+estrutural_1200_150,70,651,150,1199
+semantico_1200,81,547,153,1192

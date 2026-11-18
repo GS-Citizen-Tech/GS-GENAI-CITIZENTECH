@@ -1,0 +1,10 @@
+# Rascunhos e backups (não fazem parte da entrega)
+_nao_entregar/
+
+# Enunciado da FIAP (material da disciplina)
+*Enunciado*.pdf
+
+# Ambiente local e chaves
+.env
+.ipynb_checkpoints/
+__pycache__/

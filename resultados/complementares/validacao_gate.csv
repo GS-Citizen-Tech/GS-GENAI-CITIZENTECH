@@ -1,0 +1,13 @@
+id,classe,pergunta,sim_max
+V01,dominio,Perdi o emprego. Como dou entrada no seguro-desemprego pela internet?,0.9070020914077759
+V02,dominio,Quem tem direito a receber o abono salarial do PIS?,0.9044932126998901
+V03,dominio,Como faço para emitir a carteira de trabalho digital?,0.9080626964569092
+V04,dominio,Em quais situações eu posso sacar o FGTS?,0.9071642756462097
+V05,dominio,Meu pedido de seguro-desemprego foi indeferido. Como entro com recurso?,0.9245246052742004
+V06,dominio,Fui dispensada do trabalho de doméstica. Tenho direito ao seguro-desemprego?,0.9138034582138062
+V07,fora_escopo,Como faço para renovar minha carteira de motorista?,0.8631640672683716
+V08,fora_escopo,Como emito a segunda via da conta de luz?,0.8416123390197754
+V09,fora_escopo,Onde tiro o título de eleitor pela primeira vez?,0.8230622410774231
+V10,fora_escopo,Como agendo a vacina da gripe no posto de saúde?,0.8322853446006775
+V11,fora_escopo,Qual é a previsão do tempo para amanhã em São Paulo?,0.8230388164520264
+V12,fora_escopo,Como declaro o imposto de renda de pessoa física?,0.8578243851661682
