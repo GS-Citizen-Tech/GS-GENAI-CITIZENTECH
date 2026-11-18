@@ -1,6 +1,6 @@
 # Assistente do Trabalhador CitizenTech (RAG sobre o gov.br)
 
-**Global Solution 2026.2 · Generative AI & Advanced Nets · Turma 2TIAPF**
+**Global Solution 2026.2 · Generative AI & Advanced Nets · Turma 2TIAPY**
 
 | Integrante | RM |
 |---|---|
